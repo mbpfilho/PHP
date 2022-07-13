@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>ex01 HTML</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../php.css">
+  </head>
+
+  <body>
+      <div>
+        <form action="ex01.php" method="get">
+            Número:&nbsp<input type="number" name="num"><br>
+            <fieldset>
+                <legend>Opera&ccedil;&atilde;o</legend>
+                <input type="radio" name="oper" value="1" id="dobro" checked>
+                <label for="dobro">dobro</label>
+                
+                <input type="radio" name="oper" value="2" id="cubo">
+                <label for="cubo">cubo</label>
+                
+                <input type="radio" name="oper" value="3" id="raiz">
+                <label for="raiz">raiz quadrada</label>
+            </fieldset>
+            <input type="submit" class="botao" value="Calcular">
+        </form>        
+      </div>
+  </body>
+</html>
