@@ -12,7 +12,7 @@ body, input[type=text], input[type=number]{
     padding: 12px 24px;
     font-weight: bold;
     text-decoration: none;
-    margin: 10pt;
+    margin: 24pt;
     cursor: pointer;
     border-radius: 3px;
 }
