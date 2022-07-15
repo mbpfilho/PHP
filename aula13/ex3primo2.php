@@ -11,22 +11,16 @@
         <?php
         $n=isset($_GET["n"])?htmlspecialchars($_GET["n"]):1;
         echo "<p>O número escolhido foi $n</p>";
-        $d=array();
-        $i=0;
-        for($c=2;$c<$n;$c++){
-            if($n%$c==0){
-                $i++;
-                $d[$i]=$c;
-            }
-        }
+        $primo=TRUE;
         echo "<p>Seus divisores são: 1";
-        if($i>0){
-            for($c=1;$c<=$i;$c++){
-                echo ", $d[$c]";
+        for($d=2;$d<$n;$d++){
+            if($n%$d==0){
+                $primo=FALSE;
+                echo ", $d";
             }
         }
         echo " e $n</p>";
-        if($i==0){
+        if($primo){
             echo "<p>$n é um número primo</p>";
         }else{
             echo "<p>$n não é um número primo</p>";            
