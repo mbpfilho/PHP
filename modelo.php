@@ -12,7 +12,7 @@
 
       ?>
       
-      <!-- <a href="javascript:history.go(-1)" class="botao">Voltar</a> -->
+      <!-- <br><a href="javascript:history.go(-1)" class="botao">Voltar</a> -->
     </div>
   </body>
 </html>
