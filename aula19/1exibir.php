@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
-    <title>ex6array PHP</title>
+    <title>exibir PHP</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../php.css">
   </head>
@@ -10,9 +10,10 @@
     <div>
     <pre>
       <?php
-      $m=array(array(6,4),array(4,9),array(3,2));
-      $m[0][1]=$m[2][0];
-      print_r(($m));
+      $v=array("A","J","M","X","K");
+      echo "<p>O vetor tem ".count($v)." elementos</p>";
+      print_r($v);
+      var_dump($v);
       ?>
     </pre>
     
